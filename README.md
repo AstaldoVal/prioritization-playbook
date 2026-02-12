@@ -244,24 +244,6 @@ Then add your situation (e.g. *“I have 4 platform features for the quarter, no
 
 ---
 
-## Publish this repo to GitHub
-
-If this folder is not yet a Git repo:
-
-```bash
-cd prioritization-playbook
-git init
-git add .
-git commit -m "Initial commit: Prioritization Playbook for AI assistants"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/prioritization-playbook.git
-git push -u origin main
-```
-
-Create the repository on GitHub first (empty, no README), then run the commands above with your repo URL.
-
----
-
 ## License
 
 [MIT](LICENSE). You can copy, modify, and distribute this repo; use it in your own products or share it. No trademark or platform lock-in.
